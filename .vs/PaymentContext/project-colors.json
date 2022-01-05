@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ccfe2d3f-4dc5-4a4d-9597-c9e456f2430a": {
+      "ProjectGuid": "ccfe2d3f-4dc5-4a4d-9597-c9e456f2430a",
+      "DisplayName": "PaymentContext.Domain",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

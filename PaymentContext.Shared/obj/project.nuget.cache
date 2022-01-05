@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "j0vwYv0Suj6eQuFkcY4qTfrUviOUNMu/bO2vE8eG/wh7TewJh8htWwyynAChaRnZFBckGx2Xp/GBBngGJT2O+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mateus\\Desktop\\BaltaCursos\\Domínios Ricos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mateus\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
