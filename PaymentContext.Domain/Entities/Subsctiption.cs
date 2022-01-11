@@ -23,7 +23,7 @@ namespace PaymentContext.Domain.Entities
         public IReadOnlyCollection<Payment> Payments { get {return _payments.ToArray();} }
 
 
-        public void AddPayments(Payment payment)
+        public void AddPayment(Payment payment)
         {
             AddNotifications(new Contract<Notification>()
                 .Requires()

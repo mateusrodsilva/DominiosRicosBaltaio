@@ -13,8 +13,8 @@ namespace PaymentContext.Domain.ValueObjects
 
             AddNotifications(new Contract<Notification>()
                 .Requires()
-                .IsGreaterThan(FirstName, 40, "Name.FirstName", "Nome deve conter no máximo 40 caracteres")
-                .IsGreaterThan(LastName, 40, "Name.LastName", "Sobrenome deve conter no máximo 40 caracteres")
+                .IsLowerThan(FirstName, 40, "Name.FirstName", "Nome deve conter no máximo 40 caracteres")
+                .IsLowerThan(LastName, 40, "Name.LastName", "Sobrenome deve conter no máximo 40 caracteres")
 
             );
         }
