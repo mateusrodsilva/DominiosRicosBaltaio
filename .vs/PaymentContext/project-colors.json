@@ -5,7 +5,12 @@
       "ProjectGuid": "ccfe2d3f-4dc5-4a4d-9597-c9e456f2430a",
       "DisplayName": "PaymentContext.Domain",
       "ColorIndex": 0
+    },
+    "a75af4fa-9df5-4304-a2a8-60d74a3f33e0": {
+      "ProjectGuid": "a75af4fa-9df5-4304-a2a8-60d74a3f33e0",
+      "DisplayName": "PaymentContext.Tests",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
