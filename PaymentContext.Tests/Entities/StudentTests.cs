@@ -54,10 +54,4 @@ public class StudentTests
 
         Assert.IsTrue(_student.IsValid);
     }
-
-    // [TestMethod]
-    // public void ShoudReturnErrorWhenHadActiveSubscription()
-    // {
-        
-    // }
 }
