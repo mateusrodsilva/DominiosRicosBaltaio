@@ -10,7 +10,12 @@
       "ProjectGuid": "a75af4fa-9df5-4304-a2a8-60d74a3f33e0",
       "DisplayName": "PaymentContext.Tests",
       "ColorIndex": 1
+    },
+    "72ce99a8-50a3-4e14-82e9-5d635fd4db7e": {
+      "ProjectGuid": "72ce99a8-50a3-4e14-82e9-5d635fd4db7e",
+      "DisplayName": "PaymentContext.Shared",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

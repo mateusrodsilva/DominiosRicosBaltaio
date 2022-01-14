@@ -16,10 +16,6 @@ namespace PaymentContext.Domain.ValueObjects
             Country = country;
             ZipCode = zipCode;
 
-            AddNotifications(new Contract<Notification>()
-                .Requires()
-                .IsGreaterThan(Street, 80, "Address.Street", "A rua deve ter no máximo 80 caracteres")
-            );
         }
 
         public string Street { get; private set; }

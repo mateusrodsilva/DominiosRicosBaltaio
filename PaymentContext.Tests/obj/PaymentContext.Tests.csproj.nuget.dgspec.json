@@ -4,14 +4,14 @@
     "C:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
+    "C:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
         "projectName": "PaymentContext.Domain",
-        "projectPath": "c:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+        "projectPath": "C:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
         "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -164,8 +164,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
-                "projectPath": "c:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
+              "C:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
               },
               "C:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
                 "projectPath": "C:\\Users\\Mateus\\Desktop\\DominiosRicosBaltaio\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
