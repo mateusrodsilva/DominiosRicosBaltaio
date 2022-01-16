@@ -22,3 +22,15 @@ C:\Users\Mateus\Desktop\DominiosRicosBaltaio\PaymentContext.Shared\obj\Debug\net
 C:\Users\Mateus\Desktop\DominiosRicosBaltaio\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.dll
 C:\Users\Mateus\Desktop\DominiosRicosBaltaio\PaymentContext.Shared\obj\Debug\net6.0\ref\PaymentContext.Shared.dll
 C:\Users\Mateus\Desktop\DominiosRicosBaltaio\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.pdb
+c:\Users\mrodr\Documents\GitHub\DominiosRicosBaltaio\PaymentContext.Shared\bin\Debug\net6.0\PaymentContext.Shared.deps.json
+c:\Users\mrodr\Documents\GitHub\DominiosRicosBaltaio\PaymentContext.Shared\bin\Debug\net6.0\PaymentContext.Shared.dll
+c:\Users\mrodr\Documents\GitHub\DominiosRicosBaltaio\PaymentContext.Shared\bin\Debug\net6.0\ref\PaymentContext.Shared.dll
+c:\Users\mrodr\Documents\GitHub\DominiosRicosBaltaio\PaymentContext.Shared\bin\Debug\net6.0\PaymentContext.Shared.pdb
+c:\Users\mrodr\Documents\GitHub\DominiosRicosBaltaio\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.csproj.AssemblyReference.cache
+c:\Users\mrodr\Documents\GitHub\DominiosRicosBaltaio\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\mrodr\Documents\GitHub\DominiosRicosBaltaio\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.AssemblyInfoInputs.cache
+c:\Users\mrodr\Documents\GitHub\DominiosRicosBaltaio\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.AssemblyInfo.cs
+c:\Users\mrodr\Documents\GitHub\DominiosRicosBaltaio\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.csproj.CoreCompileInputs.cache
+c:\Users\mrodr\Documents\GitHub\DominiosRicosBaltaio\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.dll
+c:\Users\mrodr\Documents\GitHub\DominiosRicosBaltaio\PaymentContext.Shared\obj\Debug\net6.0\ref\PaymentContext.Shared.dll
+c:\Users\mrodr\Documents\GitHub\DominiosRicosBaltaio\PaymentContext.Shared\obj\Debug\net6.0\PaymentContext.Shared.pdb

@@ -69,6 +69,11 @@ namespace PaymentContext.Domain.Handlers
             //Salvar Informações
             _repository.CreateSubscription(student);
 
+            if (!this.IsValid)
+            {
+                return new CommandResult(false, "Não foi possível realizar sua assinatura");
+            }
+
             //Enviar E-mail de boas vindas
             _emailService.Send(student.Name.ToString(), student.Email.Address, "bem vindo ao balta.io", "Sua ");
 
@@ -79,7 +84,13 @@ namespace PaymentContext.Domain.Handlers
         public ICommandResult Handle(CreatePayPalSubscriptionCommand command)
         {
             //Fail Fast Validation 
-      
+            command.Validate();
+            if (!command.IsValid)
+            {
+                AddNotifications(command);
+                return new CommandResult(false, "Não foi possível realizar sua assinatura");
+            }
+
             // Verifica se o Documento está cadastrado
             if (_repository.DocumentExists(command.Document))
             {
@@ -107,14 +118,14 @@ namespace PaymentContext.Domain.Handlers
             subscription.AddPayment(payment);
             student.AddSubscription(subscription);
 
-            //Aplicar validações 
+            //Agrupar validações 
             AddNotifications(name, document, email, address, student, subscription, payment);
 
             //Salvar Informações
             _repository.CreateSubscription(student);
 
             //Enviar E-mail de boas vindas
-            _emailService.Send(student.Name.ToString(), student.Email.Address, "bem vindo ao balta.io", "Sua ");
+            _emailService.Send(student.Name.ToString(), student.Email.Address, "bem vindo ao balta.io", "Sua assinatura foi criada");
 
             //Retornar informações
             return new CommandResult(true, "Assinatura realizada com sucesso");

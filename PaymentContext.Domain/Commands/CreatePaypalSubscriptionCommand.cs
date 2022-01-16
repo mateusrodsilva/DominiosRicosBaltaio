@@ -1,10 +1,12 @@
+using Flunt.Notifications;
+using Flunt.Validations;
 using PaymentContext.Domain.Enums;
 using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Shared.Commands;
 
 namespace PaymentContext.Domain.Commands
 {
-    public class CreatePayPalSubscriptionCommand : ICommand
+    public class CreatePayPalSubscriptionCommand : Notifiable<Notification>, ICommand
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -31,7 +33,12 @@ namespace PaymentContext.Domain.Commands
 
         public void Validate()
         {
-            //OK
+            AddNotifications(new Contract<Notification>()
+                .Requires()
+                .IsLowerThan(FirstName, 40, "FirstName", "Nome deve conter no m�ximo 40 caracteres")
+                .IsLowerThan(LastName, 40, "LastName", "Sobrenome deve conter no m�ximo 40 caracteres")
+                .IsEmail(Email, "Email", "Email inválido")
+            );
         }
     }
 }

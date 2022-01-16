@@ -4,6 +4,31 @@ namespace PaymentContext.Domain.Commands
 {
     public class CreateCreditCardSubscriptionCommand
     {
+        public CreateCreditCardSubscriptionCommand(string firstName, string lastName, string document, string email, string payerEmail, string transactionCode, string paymentNumber, DateTime paidDate, DateTime expireDate, decimal total, decimal totalPaid, string payer, string payerDocument, EDocumentType payerDocumentType, string street, string number, string neighborhood, string city, string state, string country, string zipCode)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            Document = document;
+            Email = email;
+            PayerEmail = payerEmail;
+            TransactionCode = transactionCode;
+            PaymentNumber = paymentNumber;
+            PaidDate = paidDate;
+            ExpireDate = expireDate;
+            Total = total;
+            TotalPaid = totalPaid;
+            Payer = payer;
+            PayerDocument = payerDocument;
+            PayerDocumentType = payerDocumentType;
+            Street = street;
+            Number = number;
+            Neighborhood = neighborhood;
+            City = city;
+            State = state;
+            Country = country;
+            ZipCode = zipCode;
+        }
+
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Document { get; set; }

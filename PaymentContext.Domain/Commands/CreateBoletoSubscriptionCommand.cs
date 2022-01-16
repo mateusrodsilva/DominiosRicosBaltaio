@@ -40,13 +40,13 @@ namespace PaymentContext.Domain.Commands
         {
             AddNotifications(new Contract<Notification>()
                 .Requires()
-                .IsLowerThan(FirstName, 40, "FirstName", "Nome deve conter no máximo 40 caracteres")
-                .IsLowerThan(LastName, 40, "LastName", "Sobrenome deve conter no máximo 40 caracteres")
-                .IsEmail(Email, "Email", "Email inválido")
-                /*.IsEmail(PayerEmail, "Payer Email", "Email do pagador inválido")
-                .IsGreaterThan(Street, 80, "Address.Street", "A rua deve ter no máximo 80 caracteres")
-                .IsLowerOrEqualsThan(0, Total, "Payment.Total", "0 total não pode ser zero")
-                .IsGreaterOrEqualsThan(Total, TotalPaid, "Payment.TotalPaid", "O valo pago é menos que o valor do pagamento")*/
+                .IsLowerThan(FirstName, 40, "FirstName", "Nome deve conter no mï¿½ximo 40 caracteres")
+                .IsLowerThan(LastName, 40, "LastName", "Sobrenome deve conter no mï¿½ximo 40 caracteres")
+                .IsEmail(Email, "Email", "Email invï¿½lido")
+                /*.IsEmail(PayerEmail, "Payer Email", "Email do pagador invï¿½lido")
+                .IsGreaterThan(Street, 80, "Address.Street", "A rua deve ter no mï¿½ximo 80 caracteres")
+                .IsLowerOrEqualsThan(0, Total, "Payment.Total", "0 total nï¿½o pode ser zero")
+                .IsGreaterOrEqualsThan(Total, TotalPaid, "Payment.TotalPaid", "O valo pago ï¿½ menos que o valor do pagamento")*/
             );
         }
     }
